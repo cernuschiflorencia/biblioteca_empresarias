@@ -1,0 +1,85 @@
+/* Estilos generales */
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+
+/* Estilos para el encabezado */
+header {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  max-width: 10%;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #e5004b;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff3366;
+}
+
+/* Estilos para las secciones con tarjetas */
+.section-card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section-card h2 {
+  color: #e5004b;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+
+/* Estilos para el buscador */
+#search {
+  padding: 5px;
+  width: 200px;
+}
+
+/* Estilos para el botón de búsqueda */
+button {
+  background-color: #e5004b;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
